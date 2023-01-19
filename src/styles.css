@@ -1,0 +1,51 @@
+body {
+  font-family: "BioRhyme";
+  text-align: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: rgb(238, 222, 224);
+}
+.card {
+  margin: 5px;
+}
+.card-title {
+  cursor: pointer;
+  font-size: 28px;
+  height: 40px;
+}
+.card-title:hover {
+  background-color: pink;
+  transition: 0.3s;
+}
+.card-collection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  cursor: pointer;
+}
+.standout {
+  box-shadow: 0px 1px 4px;
+}
+.container {
+  text-align: center;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.navbar {
+  justify-content: center;
+}
+.nav-item {
+  height: 30px;
+  margin-top: 10px;
+  list-style-type: none;
+  font-size: 20px;
+}
+.nav-item:hover {
+  color: floralwhite;
+}
+@media only screen and (max-width: 600px) {
+  .card-collection {
+    grid-template-columns: 1fr;
+  }
+}
